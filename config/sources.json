@@ -1,0 +1,51 @@
+{
+  "lookback_days": 7,
+  "sources": {
+    "hackernews": {
+      "queries": [
+        "frustrating workflow developer SaaS",
+        "time-consuming manual process founders",
+        "pain point freelancers clients"
+      ]
+    },
+    "reddit": {
+      "subreddits": [
+        "startups",
+        "SaaS",
+        "Entrepreneur",
+        "freelance",
+        "marketing",
+        "ecommerce",
+        "productmanagement",
+        "college",
+        "remotework",
+        "recruiting",
+        "agency"
+      ]
+    },
+    "x": {
+      "queries": [
+        "(\"waste hours\" OR \"takes forever\" OR \"manual\") (developer OR founder OR freelancer) -is:retweet lang:en",
+        "(\"pain point\" OR \"struggling with\") (marketer OR creator OR student OR recruiter) -is:retweet lang:en"
+      ]
+    },
+    "producthunt": {
+      "topics": [
+        "productivity",
+        "marketing",
+        "developer-tools"
+      ]
+    },
+    "indiehackers": {
+      "feeds": [
+        "https://www.indiehackers.com/feed"
+      ]
+    },
+    "forums": {
+      "feeds": [
+        "https://hnrss.org/newest",
+        "https://www.producthunt.com/feed"
+      ]
+    }
+  }
+}
